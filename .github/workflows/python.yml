@@ -34,9 +34,9 @@ jobs:
             snyk auth "18f6619d-0cee-454c-b491-f026fe08e308"
             snyk test --file=requirements.txt --command=python3 || echo "No vulnerabilities or scan failed"
             snyk monitor --file=requirements.txt \
-                       --command=python3 \
-                       --project-name=demo-public
-                       --org=mounicasangana 
+             --command=python3 \
+             --project-name=demo-public \
+             --org=mounicasangana
 
       - name: Run Snyk to check for vulnerabilities
         uses: snyk/actions/python@master
