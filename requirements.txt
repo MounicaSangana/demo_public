@@ -1,2 +1,6 @@
 # Minimal dependency
 requests
+
+#snyk
+flask==2.1.2
+requests>=2.20.0
