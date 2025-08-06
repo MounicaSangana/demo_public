@@ -1,2 +1,2 @@
-# demo_public2
+# demo_public
 public
