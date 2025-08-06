@@ -29,3 +29,8 @@ jobs:
           SNYK_TOKEN: "18f6619d-0cee-454c-b491-f026fe08e308"
         with:
           args: --severity-threshold=medium
+
+      - name: Monitor project with Snyk
+        run: snyk monitor
+        env:
+          SNYK_TOKEN: "18f6619d-0cee-454c-b491-f026fe08e308"
